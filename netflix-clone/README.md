@@ -1,8 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# You can use api key from tmdb
+```bash
+API_KAY=1253bb3066ea4df2016b2ab732a00fb6
+```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Use this command to build image and pass the argument to set tmdb api key because api key is a sensitive data
+```bash
+docker build --build-arg API_KAY=1253bb3066ea4df2016b2ab732a00fb6 -t netflix .
+```
