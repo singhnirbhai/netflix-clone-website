@@ -22,9 +22,4 @@ spec:
 
         ports:
         - containerPort: 5173
-        env:
-        - name: TMDB_KEY
-          valueFrom:
-            secretKeyRef:
-              name: tmdb-secret
-              key: TMDB_KEY
+       
