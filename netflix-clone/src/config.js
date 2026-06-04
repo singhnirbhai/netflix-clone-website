@@ -14,7 +14,7 @@ const firebaseConfig = {
 // craete a/c on themoviedb.org and replace access token below
 
 
-/*const TMDB_Access_Key="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjUzYmIzMDY2ZWE0ZGYyMDE2YjJhYjczMmEwMGZiNiIsIm5iZiI6MTc1NTQyNjcxMi41NzcsInN1YiI6IjY4YTFhZjk4NWU4OTVlMjFhNjAyY2ZiZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.wfPY-8Y73_d9NVdIFss71eMu2JwWoSpnMG9Vv5_UKg0";*/
+const TMDB_Access_Key="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjUzYmIzMDY2ZWE0ZGYyMDE2YjJhYjczMmEwMGZiNiIsIm5iZiI6MTc1NTQyNjcxMi41NzcsInN1YiI6IjY4YTFhZjk4NWU4OTVlMjFhNjAyY2ZiZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.wfPY-8Y73_d9NVdIFss71eMu2JwWoSpnMG9Vv5_UKg0";
 
 
   export {firebaseConfig, TMDB_Access_Key};
