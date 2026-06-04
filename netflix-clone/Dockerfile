@@ -13,6 +13,8 @@ RUN npm install
 
 RUN npm run build
 
-EXPOSE 3000
+RUN npm install -g serve
 
-CMD ["npm", "run", "dev"]
+EXPOSE 5173
+
+CMD ["serve","-s","dist","-l","5173"]
